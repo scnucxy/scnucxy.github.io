@@ -33,21 +33,10 @@ public class Test {
 
 //		java.util.Date date = java.text.SimpleDateFormat.getDateInstance().parse("2009-3-31 12:00:00");
 //		System.out.println(date.toString());
-
+         //唯一编号1.数据指纹 2.时间戳 3.UUID
 		HashMap<String, Object> s = new HashMap<String, Object>();
-		s.put("a", "123");
-		s.put("s", "123");
-		s.put("time", System.currentTimeMillis() + "");
 		System.out.println(SHA1.SHA1(s));
-		System.out.println(UUID.randomUUID().toString().replaceAll("-", ""));
-		System.out.println(Sha1Util.getSha1("123" + " 123" + " " + System.currentTimeMillis()));
-		System.out.println("System.naotime");
-//1.
-		Random r = new Random();
-		for (int i = 0; i < 100; i++) {
-			String n = System.nanoTime() + "" + r.nextInt();
-			System.out.println(n);
-		}
+     
 	}
 
 }
