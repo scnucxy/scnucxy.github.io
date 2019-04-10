@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <c3p0-config>
 	<default-config>
-	   <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/eidp</property>
+	   <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/eidp?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=UTF-8</property>
 	   <property name="user">root</property>
 	   <property name="password">root</property>
 	   
