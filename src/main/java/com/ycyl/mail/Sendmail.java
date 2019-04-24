@@ -89,9 +89,9 @@ public class Sendmail {
 		message.setFrom(new InternetAddress("scnucxy@163.com"));
 		// 指定收件人
 		InternetAddress[] s = new InternetAddress[10];
-		message.setRecipients(MimeMessage.RecipientType.TO, new InternetAddress[] {
-				new InternetAddress("scnucxy@qq.com"), new InternetAddress("cxycxy20080808@sina.com") });
-//		message.setRecipient(Message.RecipientType.TO, new InternetAddress("scnucxy@qq.com"));
+//		message.setRecipients(MimeMessage.RecipientType.TO, new InternetAddress[] {
+//				new InternetAddress("scnucxy@qq.com"), new InternetAddress("cxycxy20080808@sina.com") });
+		message.setRecipient(Message.RecipientType.TO, new InternetAddress("18482195695@139.com"));
 		// 设置标题
 		message.setSubject("测试");
 		// 设置内容
